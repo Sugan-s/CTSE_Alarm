@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Alarm System</string>
+    <string name="menu_action_add">Add</string>
+    <string-array name="alarms">
+        <item>Tone 1</item>
+        <item>Tone 2</item>
+        <item>Tone 3</item>
+        <item>Tone 4</item>
+        <item>Tone 5</item>
+    </string-array>
+</resources>

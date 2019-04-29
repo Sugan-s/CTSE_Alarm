@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="75dp">
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:id="@+id/te_time"
+        android:layout_alignParentLeft="true"
+        android:text="06:30"
+        android:gravity="center"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/te_name"
+        android:layout_width="170dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/te_time"
+        android:gravity="center"
+        android:text="get UP!!"
+        android:textSize="20dp" />
+
+    <Switch
+        android:id="@+id/te_alarmon_off"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+         />
+</RelativeLayout>
